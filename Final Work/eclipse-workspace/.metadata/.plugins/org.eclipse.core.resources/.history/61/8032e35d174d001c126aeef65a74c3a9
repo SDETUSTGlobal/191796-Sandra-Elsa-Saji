@@ -1,0 +1,19 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")  
+driver.maximize_window()    
+driver.get("https://www.amazon.in/")
+time.sleep(2)
+driver.find_element_by_id("nav-link-accountList-nav-line-1").click()
+driver.find_element_by_id("ap_email").send_keys("elsageorge2000@gmail.com")
+driver.find_element_by_id("continue").click()
+driver.find_element_by_id("ap_password").send_keys("812000s")
+driver.find_element_by_id("signInSubmit").click()
+driver.find_element_by_id("twotabsearchtextbox").send_keys("pencil")
+driver.find_element_by_id("nav-search-submit-button").click()
+time.sleep(2)
+
+driver.close()
+print("sample test case successfully completed")

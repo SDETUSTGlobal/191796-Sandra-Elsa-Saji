@@ -1,0 +1,5 @@
+package com.spoint;
+
+public class UserDao {
+
+}

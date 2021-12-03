@@ -1,0 +1,20 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")  
+driver.maximize_window()    
+driver.get("https://www.flipkart.com/")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input").send_keys("9946853548")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input").send_keys("812000s")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button").click()
+time.sleep(3)
+driver.find_element_by_xpath("/html/body/div/div/div[1]/div[1]/div[2]/div[2]/form/div/div/input").send_keys("pencil")
+driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/div[2]/div[2]/form/div/button").click()
+time.sleep(3)
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[2]/div[2]/div/div[1]/div/a[2]").click()
+time.sleep(3)
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button").click()
+time.sleep(3)
+driver.close()
+print("sample test case successfully completed")

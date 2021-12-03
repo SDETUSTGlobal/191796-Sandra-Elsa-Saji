@@ -1,0 +1,23 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")  
+driver.maximize_window()    
+driver.get("https://www.amazon.in/")
+time.sleep(2)
+driver.find_element_by_id("nav-link-accountList-nav-line-1").click()
+driver.find_element_by_id("ap_email").send_keys("elsageorge2000@gmail.com")
+driver.find_element_by_id("continue").click()
+driver.find_element_by_id("ap_password").send_keys("812000s")
+driver.find_element_by_id("signInSubmit").click()
+driver.find_element_by_id("twotabsearchtextbox").send_keys("pencil")
+driver.find_element_by_id("nav-search-submit-button").click()
+time.sleep(2)
+driver.get("https://www.amazon.in/Doms-Drawing-Sketching-Graphite-Pencils/dp/B095M1PS5M/ref=sr_1_1_sspa?keywords=pencil&qid=1637752103&sr=8-1-spons&psc=1&smid=A2HWG907B7FMH9&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFENEg5RzVZWllDRk4mZW5jcnlwdGVkSWQ9QTA2MzQzNDMzSjY4M01LQktHQ1Q4JmVuY3J5cHRlZEFkSWQ9QTAyNDA4NTA2OEI3TVQwRTlWMEsmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl")
+time.sleep(2)
+driver.find_element_by_id("add-to-cart-button").click()
+driver.find_element_by_id("hlb-ptc-btn-native").click()
+time.sleep(2)
+driver.close()
+print("sample test case successfully completed")

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Private\workspace\Mockito7\src\test\java\Mockito7\Mockito7\SpyTest.java"/>
+			<item value="C:\Users\Private\workspace\Test1\src\test\java\Test1\Test1"/>
+			<item value="C:\Users\Private\workspace\WebdriverTest1"/>
+			<item value="C:\Users\Private\workspace\WebdriverTest1\pom.xml"/>
+			<item value="C:\Users\Private\workspace\WebdriverTest1\src\test\java"/>
+			<item value="C:\Users\Private\workspace\WebdriverTest"/>
+			<item value="C:\Users\Private\workspace\New\src\testng\Personal_loan.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Annotations.Annotations"/>
+			<item value="BDD.BDD"/>
+			<item value="ArgMatcherException.ArgMatcherException"/>
+			<item value="ArgMatcher.ArgMatcher"/>
+			<item value="Mockito7.Mockito7"/>
+			<item value="Mockito6.Mockito6"/>
+			<item value="Mockito5.Mockito5"/>
+			<item value="Mockito4.Mockito4"/>
+			<item value="Mockito3.Mockito3"/>
+			<item value="Mockito2.Mockito2"/>
+			<item value="Mockito1.Mockito1"/>
+			<item value="WebdriverTest.WebdriverTest"/>
+			<item value="Test1.Test1"/>
+		</list>
+		<list key="groupId">
+			<item value="Annotations"/>
+			<item value="BDD"/>
+			<item value="ArgMatcherException"/>
+			<item value="ArgMatcher"/>
+			<item value="Mockito7"/>
+			<item value="Mockito6"/>
+			<item value="Mockito5"/>
+			<item value="Mockito4"/>
+			<item value="Mockito3"/>
+			<item value="Mockito2"/>
+			<item value="Mockito1"/>
+			<item value="WebdriverTest"/>
+			<item value="Test1"/>
+		</list>
+		<list key="artifactId">
+			<item value="Annotations"/>
+			<item value="BDD"/>
+			<item value="ArgMatcherException"/>
+			<item value="ArgMatcher"/>
+			<item value="Mockito7"/>
+			<item value="Mockito6"/>
+			<item value="Mockito5"/>
+			<item value="Mockito4"/>
+			<item value="Mockito3"/>
+			<item value="Mockito2"/>
+			<item value="Mockito1"/>
+			<item value="WebdriverTest"/>
+			<item value="Test1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

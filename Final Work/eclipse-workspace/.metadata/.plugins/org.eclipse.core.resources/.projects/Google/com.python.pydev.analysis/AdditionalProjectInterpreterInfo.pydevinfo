@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Private\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Google\com.python.pydev.analysis\v2_indexcache
+PyDev.WebOrders|1637739939852620000|C:\Users\Private\eclipse-workspace\Google\PyDev\WebOrders.py
+PyDev.Ajio|1637754855639264600|C:\Users\Private\eclipse-workspace\Google\PyDev\Ajio.py
+PyDev.Amazon|1637752329872875600|C:\Users\Private\eclipse-workspace\Google\PyDev\Amazon.py
+PyDev.Sample1|1637734725871772600|C:\Users\Private\eclipse-workspace\Google\PyDev\Sample1.py
+PyDev.Test|1637734446428718600|C:\Users\Private\eclipse-workspace\Google\PyDev\Test.py
+PyDev.Myntra|1637755575710532900|C:\Users\Private\eclipse-workspace\Google\PyDev\Myntra.py
+PyDev.__init__|1637733378193920300|C:\Users\Private\eclipse-workspace\Google\PyDev\__init__.py
+PyDev.Flipkart|1637749534384750300|C:\Users\Private\eclipse-workspace\Google\PyDev\Flipkart.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+14=PyDev.Ajio
+2=PyDev.Amazon
+6=PyDev.Sample1
+10=PyDev.Test
+11=C:\Users\Private\eclipse-workspace\Google\PyDev\Flipkart.py
+4=PyDev.Myntra
+7=C:\Users\Private\eclipse-workspace\Google\PyDev\WebOrders.py
+12=PyDev.Flipkart
+13=C:\Users\Private\eclipse-workspace\Google\PyDev\Ajio.py
+8=PyDev.WebOrders
+9=C:\Users\Private\eclipse-workspace\Google\PyDev\Test.py
+1=C:\Users\Private\eclipse-workspace\Google\PyDev\Amazon.py
+3=C:\Users\Private\eclipse-workspace\Google\PyDev\Myntra.py
+5=C:\Users\Private\eclipse-workspace\Google\PyDev\Sample1.py
+-- END DICTIONARY
+-- START TREE 1
+1
+dri|7|driver!1^5#1*19@driver!3^5#1*35@driver!5^6#1*51@driver!7^5#1*67@driver!9^6#1*83@driver!11^5#1*99@driver!13^5#1*115@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

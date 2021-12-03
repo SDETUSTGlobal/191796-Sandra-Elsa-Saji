@@ -1,0 +1,27 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")  
+driver.maximize_window()    
+driver.get("https://www.flipkart.com/")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input").send_keys("9946853548")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input").send_keys("812000s")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button").click()
+time.sleep(3)
+driver.find_element_by_name("q").send_keys("shoes")  
+time.sleep(2) 
+
+driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/div[2]/div[2]/form/div/button").click()
+time.sleep(2)  
+
+driver.get("https://www.flipkart.com/port-running-shoes-men/p/itm13060ed10fcbe?pid=SHOFP98ZYPDWCGSM&lid=LSTSHOFP98ZYPDWCGSMSMCNYZ&marketplace=FLIPKART&q=shoes&store=osp&srno=s_1_5&otracker=search&otracker1=search&fm=SEARCH&iid=824e261b-19c9-4d0d-a3e4-56d004da582f.SHOFP98ZYPDWCGSM.SEARCH&ppt=hp&ppn=homepage&ssid=fbkpiqjmb40000001637741649897&qH=b0a8b6f820479900")
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button").click()
+time.sleep(2)
+
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[2]/div[5]/div/div[2]/div[1]/ul/li[6]/a").click()
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button").click()
+time.sleep(2)
+driver.close()  
+print("successfully completed")

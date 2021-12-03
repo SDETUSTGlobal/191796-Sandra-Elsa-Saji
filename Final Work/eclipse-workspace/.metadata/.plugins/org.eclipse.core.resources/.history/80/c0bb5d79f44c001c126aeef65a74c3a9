@@ -1,0 +1,16 @@
+from selenium import webdriver
+import time
+from selenium.webdriver.common.keys import Keys
+print("sample test case started")
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")
+driver.maximize_window()
+driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx")
+driver.find_element_by_id("ctl00_MainContent_username").send_keys("Tester")
+driver.find_element_by_id("ctl00_MainContent_password").send_keys("test")
+driver.find_element_by_id("ctl00_MainContent_login_button").send_keys(Keys.ENTER)
+driver.find_element_by_id("ctl00_MainContent_btnCheckAll").send_keys(Keys.ENTER)
+driver.find_element_by_id("ctl00_MainContent_btnUncheckAll").send_keys(Keys.ENTER)
+driver.find_element_by_id("ctl00_MainContent_btnCheckAll").send_keys(Keys.ENTER)
+driver.find_element_by_id("ctl00$MainContent$btnDelete").send_keys(Keys.ENTER)
+driver.close()
+print("sample test case successfully completed")

@@ -1,0 +1,20 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")  
+driver.maximize_window()    
+driver.get("https://www.flipkart.com/")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input").send_keys("9946853548")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input").send_keys("812000s")
+driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button").click()
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div/div/div[1]/div[1]/div[2]/div[2]/form/div/div/input").send_keys("pencil")
+driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/div[2]/div[2]/form/div/button").click()
+time.sleep(2)
+driver.get("https://www.flipkart.com/flair-creative-sterling-pencil/p/itmaa0b9b5a51606?pid=PNCG2AJCFAMCPZZP&lid=LSTPNCG2AJCFAMCPZZPWG97DD&marketplace=FLIPKART&q=pencil&store=d69%2Fthr%2Fbap%2Flsr&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=en_LuojxKe3PDcSiA2AeucHWjg07FjzDnYFcSs1yna1e783R%2BAyP5meM5I4E4b%2BMNOzjIxL7%2F82uZ6V4SwBqINZBg%3D%3D&ppt=hp&ppn=homepage&ssid=3sawxslnxs0000001637747503561&qH=a8f6830bce790a8a")
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button").click()
+time.sleep(2)
+driver.close()
+print("sample test case successfully completed")

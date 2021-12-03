@@ -1,0 +1,25 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <div class="nav-link">
+            Welcome <span id="name"></span><br>
+            UID: <span id="uid"></span><br>
+            Company Name: <span id="cname"></span><br>
+            Email ID: <span id="email"></span><br>
+        </div>
+    </nav>
+</section>
+
+<script>
+    document.getElementById("name").innerHTML=localStorage.getItem("name");
+    document.getElementById("uid").innerHTML=localStorage.getItem("uid");
+    document.getElementById("cname").innerHTML=localStorage.getItem("cname");
+    document.getElementById("email").innerHTML=localStorage.getItem("email");
+</script>
+</body>
+</html>
+

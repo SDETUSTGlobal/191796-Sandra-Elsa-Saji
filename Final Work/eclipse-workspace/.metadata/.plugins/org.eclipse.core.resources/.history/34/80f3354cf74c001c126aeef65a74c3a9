@@ -1,0 +1,20 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+#open Google Chrome browser  
+driver = webdriver.Chrome("C:\Software\SeleniumTest\Browsers\chromedriver.exe")  
+driver.maximize_window()    
+driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx")
+driver.find_element_by_id("ctl00_MainContent_username").send_keys("Tester")
+driver.find_element_by_id("ctl00_MainContent_password").send_keys("test")
+driver.find_element_by_id("ctl00_MainContent_login_button").click()
+driver.find_element_by_id("ctl00_MainContent_btnCheckAll").click()
+driver.find_element_by_id("ctl00_MainContent_btnUncheckAll").click()
+driver.find_element_by_id("ctl00_MainContent_orderGrid_ctl02_OrderSelector").click()
+driver.find_element_by_id("ctl00_MainContent_orderGrid_ctl06_OrderSelector").click()      
+driver.find_element_by_id("ctl00_MainContent_btnDelete").click();
+driver.find_element_by_linkText("View all products").click();
+driver.find_element_by_partialLinkText("Order").click();
+driver.close()
+print("sample test case successfully completed")

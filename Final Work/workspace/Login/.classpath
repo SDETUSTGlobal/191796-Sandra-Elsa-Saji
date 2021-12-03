@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cucumber-core-7.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cucumber-html-0.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cucumber-java-7.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cucumber-junit-7.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/cucumber-reporting-5.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/gherkin-22.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/hamcrest-core-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SEL_JAR-20210901T092836Z-001/SEL_JAR/Sel_jars/cucumber/junit-4.13.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
